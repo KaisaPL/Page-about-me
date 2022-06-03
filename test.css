@@ -1,0 +1,36 @@
+.center-div{
+ margin: 0 auto;
+ padding: 15px;
+ background-color: red;
+
+}
+
+
+
+#contents {
+overflow: auto;
+margin: auto;
+margin-bottom: 10px;
+width: 100%;
+display:flex;
+}
+
+#sidebar {
+width: 20%;
+margin: 5px;
+padding: 5px;
+margin-top: 20px;
+
+}
+
+#sidebar2 {
+width: 20%;
+padding: 5px;
+margin-top: 20px;
+}
+
+#mainContents {
+    width: 60%;
+    margin: 0px;
+    padding-top: 20px;
+}

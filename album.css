@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 10px;
+    min-height: 100%;
+    
+}
+.container {
+    display: grid;
+    grid-template-rows: 20% 1fr 20%;
+    grid-template-columns: repeat(3, 1fr); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    overflow: scroll;
+}
+.center {
+    grid-column: 1 / 4;
+    display: flex;
+    width: 100%;
+    
+}
+.sidebar {
+    width: 25%;
+    background-image: url(IMG_20220209_203748.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sidebar #link {
+    background-color: rgb(207, 234, 234);
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 200px;
+    height: 80px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.sidebar #link p {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.sidebar #link a {
+    margin-left: 70px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: rgb(62, 107, 107);
+}
+.sidebar2 {
+    width: 25%;
+    background-image: url(IMG_20220412_074807.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    
+}
+.content {
+    width: 50%;
+    margin: 5px; 
+    font-family: 'Shadows Into Light', cursive;
+}
+.header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(207, 234, 234);
+    
+}
+.header h1 {
+    font-size: 48px;
+    margin-left: 420px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.header #title {
+    text-decoration: none;
+}
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 300px;
+}
+.header nav a {
+    margin: 10px;
+    text-decoration: none;
+}
+.header nav p {
+    font-size: 36px;
+    margin-right: 5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+a:visited {
+    color: black;
+}
+.footer {
+    grid-column: 1 /4;
+    grid-row: 3 /4;
+    background-color: rgb(207, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Shadows Into Light', cursive;
+}
+.footer #footermenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer #footermenu a {
+    margin-left: 200px;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer #footermenu img {
+    margin-left: 450px;
+    margin-right: 10px;
+}
+.footer #footertext {
+    margin-left: 20px;
+}
+img {
+    height: 40px;
+    
+}
